@@ -1,0 +1,14 @@
+Run these commands in Cursor terminal:
+
+cd qkg_uav_v2_cursor
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python src/run_experiments_v2.py
+
+After it finishes, send these files back:
+1. results/statistical_summary_v2.csv
+2. results/baseline_comparison_v2.csv
+3. results/significance_tests_v2.csv
+4. results/ablation_study_v2.csv
+5. figures/v2_risk_heatmap_route_comparison.png
